@@ -5,6 +5,10 @@ body {
   font-weight: normal;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
+
+/* a:hover{ нведение)
+visited 
+} */
 h1 {
   color: #9cf6fb;
 }
@@ -23,4 +27,16 @@ a {
 .image-link img {
   width: 100px; /* Ширина изображения */
   height: auto; /* Автоматическое определение высоты, чтобы сохранить пропорции */
+}
+.info p {
+  margin: 0;
+  font-weight: bold;
+}
+.info h1 {
+  text-decoration: line-through;
+}
+/* Box Model */
+.container {
+  max-width: 750px;
+  margin: auto;
 }
